@@ -1,5 +1,5 @@
 from abc import ABC
-from homework_02.exceptions import LowFuelError, NotEnoughFuel
+from exceptions import LowFuelError, NotEnoughFuel
 
 
 class Vehicle(ABC):
@@ -29,9 +29,9 @@ class Vehicle(ABC):
             print("Fuel amount is not enough for this distance")
 
 
-#v = Vehicle(500, 0, 15)
-#v.move(1)
-#v.start()
-#print(v.started)
+# v = Vehicle(500, 0, 15)
+# v.move(1)
+# v.start()
+# print(v.started)
 
 
