@@ -22,15 +22,14 @@ class Plane(Vehicle):
         else:
             self.cargo += w
 
-
     def remove_all_cargo(self):
         z = self.cargo
         self.cargo = 0
         return z
 
-
-p = Plane(500, 100, 15, 5)
-p.load_cargo(50)
-print(p.cargo)
-print(p.remove_all_cargo())
-
+#
+# p = Plane(500, 100, 15, 5)
+# p.load_cargo(50)
+# print(p.cargo)
+# print(p.remove_all_cargo())
+#
